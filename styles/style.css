@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 20%;
+}
+
+.nav h1{
+    color: crimson;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.nav li{
+    margin: 15px;
+    list-style: none;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav a:hover{
+    background: red;
+}
+
+main {
+    background: rgb(255, 255, 255);
+    min-height: 70vh;
+    color: black;
+}
+
+section {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+main .home {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+main .home h2 {
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 4rem;
+}
+
+main .home p {
+    text-align: center;
+    
+}
+
+main .home img {
+    max-width:800px;
+    max-height:550px;
+    width: auto;
+    height: auto;
+}
+
+main .about {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+main .about h2 {
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 4rem;
+}
+main .about p {
+    
+    text-align: center;
+    
+}
+
+main .about img {
+    max-width:800px;
+    max-height:550px;
+    width: auto;
+    height: auto;
+    
+}
+main .contact h2 {
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 4rem;
+}
+
+main .contact img {
+    max-width:800px;
+    max-height:550px;
+    width: auto;
+    height: auto;
+    
+}
+
+footer {
+    height: 20%;
+}
